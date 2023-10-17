@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-wiiv
     spec:
       containers:
-      - image: quay.io/rsoaresd_org/spi-demos-mkew-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-wiiv
+      - image: quay.io/rsoaresd_org/spi-demos-mkew-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-wiiv@sha256:94c534444f6af668a2d1a85ab091e5945ab8a45171d16d4a5850cc3cb52d5aa6
         imagePullPolicy: Always
         name: main
         ports:
